@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Sprout Simulator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Sprout Simulator</h1>
+    <hr />
+    <h2>
+     Welcome to Sprout Simulator!
+    </h2>
+    <p>The goal of the game is to grow your sprout using the actions given to you until it fills the white box!</p>
+    <p>
+      <hr></hr>
+      <p>Dont worry the first sprout has already been planted for you, you can use the menu to read about each button!</p>
+
+      <select id="menu">
+      <option value="enddayoption">End day</option>
+      <option value="plantfoodoption">Plant food</option>
+      <option value="pesticideoption">Pesticide</option>
+      <option value="resetoption">Reset</option>
+    </select>
+    <button id="info">Info</button>
+    <button id="endday">End Day</button>
+      <button id="plantfood">Plant food</button>
+      <button id="pesticide">Pesticide</button>
+      <button id = "reset">Reset</button>
+      <button id = "check">Check</button>
+    </p>
+
+    <!-- Container to draw array visualization -->
+    <div id="container"></div>
+
+    <!-- Div that may be used for any output -->
+    <div id="output">-----</div>
+
+    <!-- Load JavaScript -->
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,78 @@
+html {
+  background-color: #09457e;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  background-color: rgb(0, 113, 128);
+  width: 800px;
+  margin: auto;
+  padding: 2vh 100px 8vh;
+  min-height: 90vh;
+}
+
+#endday {
+  background-color: #305f8b;
+  color: white;
+  padding: 2px 10px;
+  font-size: 18px;
+}
+
+#plantfood {
+  background-color: #2ea024;
+  color: white;
+  padding: 2px 10px;
+  font-size: 18px;
+}
+
+#pesticide {
+  background-color: #df1717;
+  color: white;
+  padding: 2px 10px;
+  font-size: 18px;
+}
+
+#reset {
+  background-color: #000000;
+  color: red;
+  padding: 2px 10px;
+  font-size: 18px;
+}
+
+#check {
+  background-color: #f3ae54;
+  color: gray;
+  padding: 2px 10px;
+  font-size: 18px;
+}
+
+#info {
+  background-color: cyan;
+  color: whitesmoke;
+  padding: 2px 10px;
+  font-size: 18px;
+}
+
+
+#menu {
+  font-size: 18px;
+  padding: 2px 10px;
+}
+
+#container {
+  border: 1px solid grey;
+  background-color:rgb(242, 243, 181);
+  width: 80px;
+  height: 600px;
+  margin: auto;
+  display: flex;
+  align-items: flex-end;
+}
+
+#container div {
+  background-color: rgb(0, 255, 64);
+  border: 1px solid grey;
+  flex: 1;
+}
